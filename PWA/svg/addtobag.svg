@@ -1,0 +1,39 @@
+<svg version="1.1" id="addtobag" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 300" style="enable-background:new 0 0 300 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#000000;stroke-width:6;stroke-miterlimit:10;}
+	#addtobag.clickit .st0{
+		fill: #ecf0f1;
+	}
+	
+	#addtobag.clickit .st1{
+		fill: #e74c3c;
+	}
+	
+	#addtobag.clickit .st2{
+		fill: #e74c3c;
+	}
+	
+	#addtobag.clickit .st3{
+		fill: #84817a;
+	}
+</style>
+<script type="text/javascript">
+	var clicker = document.querySelector('#addtobag');
+	clicker.addEventListener('click', function(){
+	 this.classList.toggle('clickit');
+	});
+</script>
+<g>
+	<polygon class="st0" points="43.6,116.5 243.6,116.5 216.8,244.1 70.5,244.1 	"/>
+	<polygon class="st2" points="216.3,106.4 216.3,62.3 188.5,34.5 98.3,34.5 71,61.8 71,106.4 89.7,106.4 89.2,70.4 107.9,52.7 
+		179.9,53.2 198.1,70.4 198.1,106.4 	"/>
+	<polygon class="st3" points="189.4,106.4 189.4,80.5 176.5,68.5 143.6,106.4 	"/>
+	<polygon class="st3" points="152.5,79.1 143.6,61.8 116.5,61.8 98.3,87.5 98.3,106.4 125.4,106.4 	"/>
+	<polygon class="st1" points="123.4,220.8 123.4,139.8 161.1,139.8 169.2,149.3 169.2,176.2 160.1,185.3 141.6,185.3 141.6,220.8 	
+		"/>
+</g>
+</svg>

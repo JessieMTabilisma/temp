@@ -1,0 +1,102 @@
+Product Name: Romana Peanut Brittle
+Description: Peanutibok na nito ang puso ng marami sa sarap!
+Product Price: 200 (Romana Big)
+	       150 (Romana Tall)
+	       100 (Romana Small)
+
+Product Name: Mika'san Choc'o Flakes
+Description: Ang choco flakes na masarap pa sa ex mo
+Product Price: 150 (Mika'san Big)
+	       100 (Mika'san Half)
+
+Product Name: Mika'san Choc'o Flakes (Milky)
+Description:  Sa sobrang milky nito, magiging baby ka na ng crush mo
+Product Price: 150 (Mika'sanBig)
+	       100 (Mika'san Half)
+
+Product Name: Baguio Paradise Peanut Brittle
+Description: Makakasama mo na sa Paradise ang crush mo, ganon ang feeling pag kumain ka nito!
+Product Price: 3 for 100 (Paradise Small)
+	       100 (Paradise Tall)
+
+Product Name: Liam's Peanut Brittle
+Description: Peanut brittle lang pero hindi ka mabibitter dito
+Product Price:
+
+Product Name: Rico's Lengua de gato
+Description: Sa sobrang pagmamahal ko sayo pinaramdam ko ang pag-ibig sa LENGUA-heng alam ko, pero DE GATO ang sinukli mo. 
+Product Price: 150 (Rico's Tall)
+               100 (Rico's Half)
+
+Product Name: Baguio Paradise Ube Crinkles
+Description: Magmahal ka ng parang ube crinkles. Yung kahit warak na, may tamis pa.
+Product Price: 
+
+Product Name: Ashley Crispy Pili
+Description: Ang PILI na pi-PILIin ka..
+Product Price: 200 (Pili Sexy)
+	       150 (Pili 3/4)
+
+Product Name: Baguio Pasalubong Fudge Bar
+Description: Baguio Fudge Bar, Ang FUDGE-IBIG mong tunay.
+If you want the fudgiest bar on town, try 'Baguio Pasalubong Fudge Bar' it will surely give you a taste you wont forget.    
+Product Price: 100 (Fudge Bar)
+
+Product Name: Baguio's Special Toasted Peanuts with Garlic Chips
+Description: Para MANI-wala kang hindi ka na nya mahal!
+Product Price: 100 (Toasted Tall)
+
+Product Name: William's Camote Chips
+Description: Dibali nang kamote chips ang meron ka, atleast sweet.
+Product Price: 
+
+Product Name: Meringue
+Description: Sana meringue ka nalang para sweet ka sakin. 
+Product Price:
+
+Product Name: Baguio Pine Alfajor Caramel
+Description: Ang caramel may national day, kayo wala.
+Product Price: 250 (Alfajor)
+
+Product Name: Audrey Rose Choco Mallow
+Description: Ang pagkain ng Choco Mallow ay maganda sa puso, hindi katulad ng relationship mo.
+Product Price:
+
+Product Name: Jereen's Sweet Tamarind
+Description: Sweet tapos sour parang jowa mo hirap intindihin.
+Product Price
+
+
+Product Name: Kat- kat orange sampaloc
+Description: 'Kat- kat orange sampaloc' ang magbibigay tamis at asim sa relasyon niyong matabang!
+Product Price:
+
+Product Name: L&L Milky Peanut Crunch
+Description: PEANUT BUTTER MAKES EVERYTHING PEANUT BETTER.
+Product Price: 
+
+Product Name: Baguio Home Made Strawberry Preserve
+Description: Buti pa ang Home Made Strawberry na Prepreserve hindi katulad ng relasyong nIyong hindi nagtatagal.
+Product Price:
+
+Product Name: Special Strawberry Jam
+Description: Happiness is like Jam, you can't spread even a little without getting some on yourself.
+Product Price:
+
+Product Name: Peanut Butter
+Description: Are you tired being Peanut Bitter? Then why not be the Peanut Butter to my jelly. Product Price: 
+
+Product Name: Ian's Kate Rice Wine
+Description: Isang basong RiceWine para sa taong iniy-wine!
+Product Price: 120 (Big Wine)
+3 for 110 ( Small Wine)
+
+
+Product Name: Ian's Kate Strawberry Wine
+Description: Life is too short to drink cheapwine, Try strawberry wine.
+Price: 120 (Big Wine)
+3 for 110 ( Small Wine)
+
+Product Name: Good Sheperd Ube Jam
+Description: God ain't cheap so choose Good Sheperd Ube Jam
+Product Price 250 ( Good Sheperd Ube)

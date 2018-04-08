@@ -1,0 +1,43 @@
+Wright Park Kiosk
+16.415440, 120.618766
+
+PORCH Pasalubong Store
+16.382335, 120.604318
+
+Pasalubong Center Gov Pack Rd.
+16.410165, 120.598511
+
+D' CARINO-BOADILLA Flower Shop
+16.413881, 120.595016
+
+Maharlika Building
+16.413792, 120.594783
+
+SM City Baguio
+16.409487, 120.599405
+
+Tam-awan Village
+16.429496, 120.576229
+
+Our Lady of Lourdes Grotto
+16.409570, 120.580571
+
+Nardas Trading Corporation
+16.407379, 120.602342
+
+Hill Station's Pickled beets, dulong, tuyo ni olive oil and more
+16.409563, 120.600449
+
+Tea House
+16.412637, 120.597562
+
+Cafe by the ruins
+16.404382, 120.604047
+
+Baguio Craft Brewery
+4 Ben Palispis Hwy, KM 4, Baguio, 2600 Benguet
+16.395244, 120.580636
+
+Tita Lea's Food Specialties City Pickup Center
+Fr. Carlu St, Baguio, Benguet
+16.411834, 120.599226
