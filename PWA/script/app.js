@@ -1,5 +1,14 @@
-// window onload event 
+// fetch data
 
+// window.onload = function() {
+//     fetch("data.json")
+//     .then((response) => response.json())
+//     .then((data) => {
+//         let output = '<h1>Hi json</h1>'
+//         console.log(data);
+//     })
+// }
+//event trigger
 var colorNav = document.querySelectorAll('main:target');
 var colorSvg = document.querySelectorAll('.p_navi > a');
 var pslogo = document.getElementById('pslogo');
@@ -16,15 +25,6 @@ var storelocator = document.getElementById('storelocator');
             console.log("there are no click events");
         }
     }
-
-/** ADD TO BAG ANIM */
-function on() {
-    document.getElementsByClassName("modalAddBag").style.display = "block";
-}
-
-function off() {
-    document.getElementsByClassName("modalAddBag").style.display = "none";
-} 
 // svg trigger animation for pinesearch home logo
 // var clicker = document.querySelector('#pslogo');
 //     clicker.addEventListener('click', function(){
@@ -75,162 +75,251 @@ const products = [
         prodImg: "./products/alfajorcaramel.jpg",
         prodID: "alfajorcaramel",
         description: "Savour the flavor of caramel.",
-        location: [""]
+		location: ["Public Market", "Maharlika", "Governor Pack Road", 
+		"Athletic Bowl", "Mines View", 
+		"Good Shepherd", "Wright Park"]
     },
     {
         name: "Camote Chips",
         price: 40,
         prodImg: "./products/camotechips.jpg",
         prodID: "camotechips",
-        description: "Simply the best camote chips."
+        description: "Simply the best camote chips.",
+		location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
     },
     {
-        name: "choco flakes",
+        name: "Choco Flakes",
         price: 100,
         prodImg: "./products/chocoflakes.jpg",
         prodID: "chocoflakes",
-        description: "One of the well known delicacies in the City of Pines."
+        description: "One of the well known delicacies in the City of Pines.",
+		location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
     },
     {
-        name: "milky chocoflakes",
+        name: "Milky Chocoflakes",
         price: 100,
         prodImg: "./products/chocoflakes2.jpg",
         prodID: "milkychocoflakes",
-        description: "The Crunchiest and Milkiest choco flakes in town 'Mika'san Choc'o Flakes'."
+        description: "The Crunchiest and Milkiest choco flakes in town 'Mika'san Choc'o Flakes'.",
+		location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
     },
     {
-        name: "chocolate flakes",
+        name: "Chocolate Flakes",
         price: 100,
         prodImg: "./products/chocoflakes3.jpg",
         prodID: "choco flakes",
-        description: "The Crunchiest and chocolatey choco flakes in town 'Mika'san Choc'o Flakes'."
+        description: "The Crunchiest and chocolatey choco flakes in town 'Mika'san Choc'o Flakes'.",
+		location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
     },
     {
-        name: "choco mallows",
+        name: "Choco Mallows",
         price: 120,
         prodImg: "./products/chocomallows.jpg",
         prodID: "chocomallows",
-        description: "Choco mallows that will certainly bring back childhood memories."
+        description: "Choco mallows that will certainly bring back childhood memories.",
+		location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
     },
     {
-        name: "fudge bar",
+        name: "Fudge Bar",
         price: 100,
         prodImg: "./products/fudgebar.jpg",
         prodID: "fudgebar",
-        description: "Fudgiest bar on town that will surely give you a taste you won't forget."
-    },
+        description: "Fudgiest bar on town that will surely give you a taste you won't forget.",
+		location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
+	},
     {
-        name: "lengua de gato",
+        name: "Lengua de Gato",
         price: 150,
         prodImg: "./products/lenguadegato.jpg",
         prodID: "lenguadegato",
-        description: "Simply the best Lengua in the City of Pines."
-    },
+        description: "Simply the best Lengua in the City of Pines.",
+    	location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
+	},
     {
-        name: "meringue",
+        name: "Meringue",
         price: 160,
         prodImg: "./products/meringue.jpg",
         prodID: "meringue",
-        description: "Meringue perfection at its finest"
-    },
+        description: "Meringue perfection at its finest",
+    	location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
+	},
     {
-        name: "peanut crunch",
+        name: "Peanut Crunch",
         price: 180,
         prodImg: "./products/milkypeanutcrunch.jpg",
         prodID: "peanutcrunch",
-        description: "Milky Peanut Crunch that will give a milky and nutty feeling with just one bite."
-    },
+        description: "Milky Peanut Crunch that will give a milky and nutty feeling with just one bite.",
+    	location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
+	},
     {
-        name: "orange sampaloc",
+        name: "Orange Sampaloc",
         price: 70,
         prodImg: "./products/orangesampaloc.jpg",
         prodID: "orangesampaloc",
-        description: "A sweet and tangy taste that will definetly give you that energy boost."
-    },
+        description: "A sweet and tangy taste that will definetly give you that energy boost.",
+    	location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Good Shepherd", "Wright Park"]
+	},
     {
-        name: "peanut brittle (crash version)",
+        name: "Peanut Brittle (crash version)",
         price: 200,
         prodImg: "./products/peanutbrittle.jpg",
         prodID: "peanutbrittle2",
-        description: "Peanut Brittle that will give you a sweet and nutty experience."
-    },
+        description: "Peanut Brittle that will give you a sweet and nutty experience.",
+    	location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
+	},
     {
-        name: "peanut brittle",
+        name: "Peanut Brittle",
         price: 100,
         prodImg: "./products/peanutbrittle.jpg",
         prodID: "peanutbrittle",
-        description: "Peanut Brittle that will give you a sweet and nutty taste that is unforgettable."
-    },
+        description: "Peanut Brittle that will give you a sweet and nutty taste that is unforgettable.",
+    	location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
+	},
     {
-        name: "peanut butter",
+        name: "Peanut Butter",
         price: 120,
         prodImg: "./products/peanutbutter.jpg",
         prodID: "peanutbutter",
-        description: "Peanut butter that will surely make you want to come back for more."
-    },
+        description: "Peanut butter that will surely make you want to come back for more.",
+    	location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
+	},
     {
-        name: "toasted peanuts with garlic chips",
+        name: "Toasted Peanuts with Garlic Chips",
         price: 100,
         prodImg: "./products/peanutgarlic.jpg",
         prodID: "toastedpeanuts",
-        description: "Garlic Chips' that will surely give a nutty experience."
-    },
+        description: "Garlic Chips' that will surely give a nutty experience.",
+    	location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
+	},
     {
-        name: "pili nuts",
+        name: "Pili Nuts",
         price: 200,
         prodImg: "./products/pilinuts.jpg",
         prodID: "pilinuts",
-        description: "The crispiest pili is Ashley's Pili"
-    },
+        description: "The crispiest pili is Ashley's Pili",
+    	location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
+	},
     {
-        name: "rice wine",
+        name: "Rice Wine",
         price: 500,
         prodImg: "./products/ricewine.jpg",
         prodID: "ricewine",
-        description: "The strawberry wine that stays sharp ‘til the bottom of the glass."
-    },
+        description: "The strawberry wine that stays sharp ‘til the bottom of the glass.",
+    	location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
+	},
     {
-        name: "straberry jam",
+        name: "Straberry Jam",
         price: 200,
         prodImg: "./products/strawberryjam.jpg",
         prodID: "strawberryjam",
-        description: "Cooked with love comes another product which will surely catch your taste buds."
-    },
+        description: "Cooked with love comes another product which will surely catch your taste buds.",
+    	location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
+	},
     {
-        name: "strawberry jam la trinidad",
+        name: "Strawberry Jam La Trinidad",
         price: 200,
         prodImg: "./products/strawberryjam2.jpg",
         prodID: "strawberryjam2",
-        description: "Made with La Trinidad's Sweet Strawberries in a jar."
-    },
+        description: "Made with La Trinidad's Sweet Strawberries in a jar.",
+    	location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
+	},
     {
-        name: "strawberry wine",
+        name: "Strawberry Wine",
         price: 100,
         prodImg: "./products/strawberrywine.jpg",
         prodID: "strawberrywine",
-        description: "The strawberry wine that stays sharp ‘til the bottom of the glass."
-    },
+        description: "The strawberry wine that stays sharp ‘til the bottom of the glass.",
+    	location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View",
+		"Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
+	},
     {
-        name: "sweet tamarind",
+        name: "Sweet Tamarind",
         price: 100,
         prodImg: "./products/tamarind.jpg",
         prodID: "sweettamarind",
-        description: "A local dessert for everyone."
-    },
+        description: "A local dessert for everyone.",
+    	location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
+	},
     {
-        name: "ube crinkles",
+        name: "Ube Crinkles",
         price: 100,
         prodImg: "./products/ubecrinkles.jpg",
         prodID: "ubecrinkles",
-        description: "Ube Crinkles that will definitly bring you to paradise."
-    },
+        description: "Ube Crinkles that will definitly bring you to paradise.",
+    	location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
+	},
     {
-        name: "ube jam (Good Shepherd )",
+        name: "Ube Jam (Good Shepherd)",
         price: 100,
         prodImg: "./products/ubejam.jpg",
         prodID: "ubejam",
-        description: " Freshly harvested Yam, cooked with love Ube Jam."
-    }
+        description: " Freshly harvested Yam, cooked with love Ube Jam.",
+    	location: ["Public Market", "Maharlika", "SM", 
+		"Governor Pack Road", "Athletic Bowl", "Mines View", 
+		"Lourdes Grotto", "Good Shepherd", "Wright Park",
+		"Porta Vaga Mall"]
+	}
    
 ]
 
@@ -299,7 +388,7 @@ function productTemplate(baguioProd){
                 </p>
                 <br>
                 <h5>Price-Range: <h6>${baguioProd.price}</h6></h5>
-                <button type="button" name="button" class="p_addBag" value="${baguioProd.prodID}" onclick="on()">Add to Bag</button>
+                <button type="button" name="button" class="p_addBag" value="${baguioProd.prodID}">Add to Bag</button>
             </div>
         </div>
     `
@@ -379,17 +468,22 @@ var addToBag = function() {
     store = transaction.objectStore("productList");
     var r = value.toString();
     var storeRequest = store.get(r);
+
+    //algo:
+    //store selected product on new object store
+    //query all objects on object store and put in html elements
     
     storeRequest.onsuccess = function(e) {
-        var record = storeRequest.result
+        //var record = storeRequest.result
         console.log(storeRequest);
         //console.log(record.name);
-        records.push(
+
+        var cart =
          `<div class="cart">
               <span id="removeItem" onclick="removeItemCart();">&times;</span>
-              <img src="${record.prodImg}" alt="" class="cart-image">
+              <img src="${storeRequest.result.prodImg}" alt="" class="cart-image">
               <div class="cart-description">
-                <h4 class="cart-title_products">${record.name}</h4>
+                <h4 class="cart-title_products">${storeRequest.result.name}</h4>
                 <label for="quantity" id="quan_desP">Qty: </label>
                   <select>
                       <option value="1">1</option>
@@ -403,9 +497,10 @@ var addToBag = function() {
                       <option value="9">9</option>
                       <option value="10">10</option>
                   </select>
-              </div>`);
+              </div>`;
+        addToBagContainer.innerHTML = cart;
+        document.body.appendChild(addToBagContainer.firstChild);
     }
-    addToBagContainer.innerHTML = records.join('');
 }
 
 for (var j = 0; j < addToBagButtons.length; j++) {
